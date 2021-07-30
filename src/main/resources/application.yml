@@ -1,0 +1,36 @@
+server:
+  port: 8081 #端口
+  servlet:
+    context-path: /ems-jsp #项目名
+    jsp:
+      init-parameters:
+        development: true #修改jsp无须重启应用
+
+#配置jsp模板,配置jsp视图前缀和后缀
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+
+#整合mybatis
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource #数据源
+    driver-class-name: com.mysql.cj.jdbc.Driver #jdbc驱动
+    url: jdbc:mysql://localhost:3306/ems-jsp?characterEncoding=UTF-8
+    username: root
+    password: password
+
+mybatis:
+  mapper-locations: classpath:com/hxh/emsjsp/mapper/*.xml #mapper文件位置
+  type-aliases-package: com.hxh.emsjsp.entity #实体类的包名
+
+#IDEA右上角：Edit Configurations，点击，找到VM options，填入-Dspring.output.ansi.enabled=ALWAYS。重新启动应用，就会发现控制台日志变成彩色了
+#配置日志
+logging:
+  level:
+    root: info #调整全局日志展示，默认为：info,一般不要改
+    com.hxh.emsjsp: debug #输出指定包的日志级别
+  file:
+    name: run.log #指定生成日志文件名称
+    path: ./ #将日志文件生成到当前目录
