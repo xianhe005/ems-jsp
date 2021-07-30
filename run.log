@@ -5711,3 +5711,150 @@ Field error in object 'employee' on field 'birthday': rejected value [2021-07-15
 2021-07-30 16:47:14.159 DEBUG 9288 --- [http-nio-8081-exec-2] com.hxh.emsjsp.dao.EmployeeDao.list      : ==>  Preparing: select id, name, birthday, salary, gender from `employee`
 2021-07-30 16:47:14.159 DEBUG 9288 --- [http-nio-8081-exec-2] com.hxh.emsjsp.dao.EmployeeDao.list      : ==> Parameters: 
 2021-07-30 16:47:14.160 DEBUG 9288 --- [http-nio-8081-exec-2] com.hxh.emsjsp.dao.EmployeeDao.list      : <==      Total: 4
+2021-07-30 17:04:30.104  WARN 9288 --- [http-nio-8081-exec-5] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ems-jsp?characterEncoding=UTF-8, version : 1.2.5, lastPacketReceivedIdleMillis : 1035943
+2021-07-30 17:04:30.125 DEBUG 9288 --- [http-nio-8081-exec-5] com.hxh.emsjsp.dao.EmployeeDao.list      : ==>  Preparing: select id, name, birthday, salary, gender from `employee`
+2021-07-30 17:04:30.125 DEBUG 9288 --- [http-nio-8081-exec-5] com.hxh.emsjsp.dao.EmployeeDao.list      : ==> Parameters: 
+2021-07-30 17:04:30.127 DEBUG 9288 --- [http-nio-8081-exec-5] com.hxh.emsjsp.dao.EmployeeDao.list      : <==      Total: 4
+2021-07-30 17:04:32.449 DEBUG 9288 --- [http-nio-8081-exec-6] c.hxh.emsjsp.controller.UserController   : 5
+2021-07-30 17:04:32.450 DEBUG 9288 --- [http-nio-8081-exec-6] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==>  Preparing: select id, name, birthday, salary, gender from `employee` where id = ?
+2021-07-30 17:04:32.451 DEBUG 9288 --- [http-nio-8081-exec-6] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==> Parameters: 5(Integer)
+2021-07-30 17:04:32.452 DEBUG 9288 --- [http-nio-8081-exec-6] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : <==      Total: 1
+2021-07-30 17:04:37.214 DEBUG 9288 --- [http-nio-8081-exec-7] c.hxh.emsjsp.controller.UserController   : 6
+2021-07-30 17:04:37.216 DEBUG 9288 --- [http-nio-8081-exec-7] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==>  Preparing: select id, name, birthday, salary, gender from `employee` where id = ?
+2021-07-30 17:04:37.216 DEBUG 9288 --- [http-nio-8081-exec-7] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==> Parameters: 6(Integer)
+2021-07-30 17:04:37.217 DEBUG 9288 --- [http-nio-8081-exec-7] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : <==      Total: 1
+2021-07-30 17:04:40.696 DEBUG 9288 --- [http-nio-8081-exec-8] c.hxh.emsjsp.controller.UserController   : 7
+2021-07-30 17:04:40.697 DEBUG 9288 --- [http-nio-8081-exec-8] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==>  Preparing: select id, name, birthday, salary, gender from `employee` where id = ?
+2021-07-30 17:04:40.697 DEBUG 9288 --- [http-nio-8081-exec-8] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==> Parameters: 7(Integer)
+2021-07-30 17:04:40.698 DEBUG 9288 --- [http-nio-8081-exec-8] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : <==      Total: 1
+2021-07-30 17:18:51.033  WARN 9288 --- [http-nio-8081-exec-1] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ems-jsp?characterEncoding=UTF-8, version : 1.2.5, lastPacketReceivedIdleMillis : 850332
+2021-07-30 17:18:51.054 DEBUG 9288 --- [http-nio-8081-exec-1] com.hxh.emsjsp.dao.EmployeeDao.list      : ==>  Preparing: select id, name, birthday, salary, gender from `employee`
+2021-07-30 17:18:51.055 DEBUG 9288 --- [http-nio-8081-exec-1] com.hxh.emsjsp.dao.EmployeeDao.list      : ==> Parameters: 
+2021-07-30 17:18:51.056 DEBUG 9288 --- [http-nio-8081-exec-1] com.hxh.emsjsp.dao.EmployeeDao.list      : <==      Total: 4
+2021-07-30 17:18:53.615 DEBUG 9288 --- [http-nio-8081-exec-2] c.hxh.emsjsp.controller.UserController   : 3
+2021-07-30 17:18:53.616 DEBUG 9288 --- [http-nio-8081-exec-2] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==>  Preparing: select id, name, birthday, salary, gender from `employee` where id = ?
+2021-07-30 17:18:53.617 DEBUG 9288 --- [http-nio-8081-exec-2] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==> Parameters: 3(Integer)
+2021-07-30 17:18:53.619 DEBUG 9288 --- [http-nio-8081-exec-2] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : <==      Total: 1
+2021-07-30 17:20:08.088  WARN 9288 --- [http-nio-8081-exec-5] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/ems-jsp?characterEncoding=UTF-8, version : 1.2.5, lastPacketReceivedIdleMillis : 74468
+2021-07-30 17:20:08.108 DEBUG 9288 --- [http-nio-8081-exec-5] com.hxh.emsjsp.dao.EmployeeDao.list      : ==>  Preparing: select id, name, birthday, salary, gender from `employee`
+2021-07-30 17:20:08.109 DEBUG 9288 --- [http-nio-8081-exec-5] com.hxh.emsjsp.dao.EmployeeDao.list      : ==> Parameters: 
+2021-07-30 17:20:08.110 DEBUG 9288 --- [http-nio-8081-exec-5] com.hxh.emsjsp.dao.EmployeeDao.list      : <==      Total: 4
+2021-07-30 17:20:09.679 DEBUG 9288 --- [http-nio-8081-exec-6] c.hxh.emsjsp.controller.UserController   : 7
+2021-07-30 17:20:09.681 DEBUG 9288 --- [http-nio-8081-exec-6] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==>  Preparing: select id, name, birthday, salary, gender from `employee` where id = ?
+2021-07-30 17:20:09.681 DEBUG 9288 --- [http-nio-8081-exec-6] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==> Parameters: 7(Integer)
+2021-07-30 17:20:09.682 DEBUG 9288 --- [http-nio-8081-exec-6] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : <==      Total: 1
+2021-07-30 17:20:15.681 DEBUG 9288 --- [http-nio-8081-exec-7] c.hxh.emsjsp.controller.UserController   : Employee{id=7, name='标准', birthday=Tue Dec 11 00:00:00 CST 2012, salary=54523.0, gender=false}
+2021-07-30 17:20:15.683 DEBUG 9288 --- [http-nio-8081-exec-7] com.hxh.emsjsp.dao.EmployeeDao.update    : ==>  Preparing: UPDATE `employee` SET `name` = ?, `birthday` = ?, `salary` = ?, `gender` = ? WHERE `id` = ?;
+2021-07-30 17:20:15.683 DEBUG 9288 --- [http-nio-8081-exec-7] com.hxh.emsjsp.dao.EmployeeDao.update    : ==> Parameters: 标准(String), 2012-12-11 00:00:00.0(Timestamp), 54523.0(Double), false(Boolean), 7(Integer)
+2021-07-30 17:20:15.684 DEBUG 9288 --- [http-nio-8081-exec-7] com.hxh.emsjsp.dao.EmployeeDao.update    : <==    Updates: 1
+2021-07-30 17:20:15.694 DEBUG 9288 --- [http-nio-8081-exec-8] com.hxh.emsjsp.dao.EmployeeDao.list      : ==>  Preparing: select id, name, birthday, salary, gender from `employee`
+2021-07-30 17:20:15.694 DEBUG 9288 --- [http-nio-8081-exec-8] com.hxh.emsjsp.dao.EmployeeDao.list      : ==> Parameters: 
+2021-07-30 17:20:15.695 DEBUG 9288 --- [http-nio-8081-exec-8] com.hxh.emsjsp.dao.EmployeeDao.list      : <==      Total: 4
+2021-07-30 17:20:39.079 DEBUG 9288 --- [http-nio-8081-exec-9] c.hxh.emsjsp.controller.UserController   : 7
+2021-07-30 17:20:39.081 DEBUG 9288 --- [http-nio-8081-exec-9] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==>  Preparing: select id, name, birthday, salary, gender from `employee` where id = ?
+2021-07-30 17:20:39.081 DEBUG 9288 --- [http-nio-8081-exec-9] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : ==> Parameters: 7(Integer)
+2021-07-30 17:20:39.083 DEBUG 9288 --- [http-nio-8081-exec-9] c.h.emsjsp.dao.EmployeeDao.idByEmployee  : <==      Total: 1
+2021-07-30 17:20:42.144 DEBUG 9288 --- [http-nio-8081-exec-10] c.hxh.emsjsp.controller.UserController   : Employee{id=7, name='标准2', birthday=Tue Dec 11 00:00:00 CST 2012, salary=54523.0, gender=false}
+2021-07-30 17:20:42.145 DEBUG 9288 --- [http-nio-8081-exec-10] com.hxh.emsjsp.dao.EmployeeDao.update    : ==>  Preparing: UPDATE `employee` SET `name` = ?, `birthday` = ?, `salary` = ?, `gender` = ? WHERE `id` = ?;
+2021-07-30 17:20:42.146 DEBUG 9288 --- [http-nio-8081-exec-10] com.hxh.emsjsp.dao.EmployeeDao.update    : ==> Parameters: 标准2(String), 2012-12-11 00:00:00.0(Timestamp), 54523.0(Double), false(Boolean), 7(Integer)
+2021-07-30 17:20:42.147 DEBUG 9288 --- [http-nio-8081-exec-10] com.hxh.emsjsp.dao.EmployeeDao.update    : <==    Updates: 1
+2021-07-30 17:20:42.154 DEBUG 9288 --- [http-nio-8081-exec-1] com.hxh.emsjsp.dao.EmployeeDao.list      : ==>  Preparing: select id, name, birthday, salary, gender from `employee`
+2021-07-30 17:20:42.155 DEBUG 9288 --- [http-nio-8081-exec-1] com.hxh.emsjsp.dao.EmployeeDao.list      : ==> Parameters: 
+2021-07-30 17:20:42.156 DEBUG 9288 --- [http-nio-8081-exec-1] com.hxh.emsjsp.dao.EmployeeDao.list      : <==      Total: 4
+2021-07-30 17:25:11.358  INFO 6784 --- [main] com.hxh.emsjsp.UserDaoTest               : Starting UserDaoTest using Java 1.8.0_191 on DESKTOP-9S2DH3B with PID 6784 (started by hxsz in C:\Users\hxsz\IdeaProjects\ems-jsp)
+2021-07-30 17:25:11.358 DEBUG 6784 --- [main] com.hxh.emsjsp.UserDaoTest               : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-07-30 17:25:11.358  INFO 6784 --- [main] com.hxh.emsjsp.UserDaoTest               : No active profile set, falling back to default profiles: default
+2021-07-30 17:25:13.247  INFO 6784 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-07-30 17:25:13.545  INFO 6784 --- [main] com.hxh.emsjsp.UserDaoTest               : Started UserDaoTest in 2.553 seconds (JVM running for 3.854)
+2021-07-30 17:25:13.933  INFO 6784 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-30 17:25:14.531 DEBUG 6784 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : ==>  Preparing: select id, username, realname, password, gender from `user` where username = ?
+2021-07-30 17:25:14.560 DEBUG 6784 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : ==> Parameters: test(String)
+2021-07-30 17:25:14.585 DEBUG 6784 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : <==      Total: 1
+2021-07-30 17:25:14.637  INFO 6784 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-07-30 17:25:14.637  INFO 6784 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-07-30 17:25:33.336  INFO 9288 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-07-30 17:25:33.338  INFO 9288 --- [Thread-6] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-07-30 17:25:33.788  INFO 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : Starting EmsJspApplication using Java 1.8.0_191 on DESKTOP-9S2DH3B with PID 9288 (C:\Users\hxsz\IdeaProjects\ems-jsp\target\classes started by hxsz in C:\Users\hxsz\IdeaProjects\ems-jsp)
+2021-07-30 17:25:33.788 DEBUG 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-07-30 17:25:33.789  INFO 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : No active profile set, falling back to default profiles: default
+2021-07-30 17:25:34.609  INFO 9288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-07-30 17:25:34.639  INFO 9288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-30 17:25:34.639  INFO 9288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-07-30 17:25:35.016  INFO 9288 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-07-30 17:25:35.018  INFO 9288 --- [restartedMain] o.a.c.c.C.[.[localhost].[/ems-jsp]       : Initializing Spring embedded WebApplicationContext
+2021-07-30 17:25:35.018  INFO 9288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1225 ms
+2021-07-30 17:25:35.309  INFO 9288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-07-30 17:25:35.360  INFO 9288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-30 17:25:35.371  INFO 9288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/ems-jsp'
+2021-07-30 17:25:35.381  INFO 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : Started EmsJspApplication in 1.829 seconds (JVM running for 3336.412)
+2021-07-30 17:25:35.404  INFO 9288 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-07-30 17:25:36.115  INFO 16720 --- [main] com.hxh.emsjsp.UserDaoTest               : Starting UserDaoTest using Java 1.8.0_191 on DESKTOP-9S2DH3B with PID 16720 (started by hxsz in C:\Users\hxsz\IdeaProjects\ems-jsp)
+2021-07-30 17:25:36.116 DEBUG 16720 --- [main] com.hxh.emsjsp.UserDaoTest               : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-07-30 17:25:36.119  INFO 16720 --- [main] com.hxh.emsjsp.UserDaoTest               : No active profile set, falling back to default profiles: default
+2021-07-30 17:25:36.939  INFO 9288 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2021-07-30 17:25:37.265  INFO 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : Starting EmsJspApplication using Java 1.8.0_191 on DESKTOP-9S2DH3B with PID 9288 (C:\Users\hxsz\IdeaProjects\ems-jsp\target\classes started by hxsz in C:\Users\hxsz\IdeaProjects\ems-jsp)
+2021-07-30 17:25:37.265 DEBUG 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-07-30 17:25:37.266  INFO 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : No active profile set, falling back to default profiles: default
+2021-07-30 17:25:38.042  INFO 9288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-07-30 17:25:38.054  INFO 9288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-30 17:25:38.065  INFO 9288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-07-30 17:25:38.309  INFO 9288 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-07-30 17:25:38.312  INFO 9288 --- [restartedMain] o.a.c.c.C.[.[localhost].[/ems-jsp]       : Initializing Spring embedded WebApplicationContext
+2021-07-30 17:25:38.315  INFO 9288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1043 ms
+2021-07-30 17:25:38.904  INFO 9288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-07-30 17:25:39.214  INFO 9288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-30 17:25:39.288  INFO 9288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/ems-jsp'
+2021-07-30 17:25:39.304  INFO 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : Started EmsJspApplication in 2.183 seconds (JVM running for 3340.335)
+2021-07-30 17:25:39.315  INFO 9288 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-07-30 17:25:39.533  INFO 16720 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-07-30 17:25:39.783  INFO 16720 --- [main] com.hxh.emsjsp.UserDaoTest               : Started UserDaoTest in 4.051 seconds (JVM running for 6.573)
+2021-07-30 17:25:40.089  INFO 16720 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-30 17:25:40.631 DEBUG 16720 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : ==>  Preparing: select id, username, realname, password, gender from `user` where username = ?
+2021-07-30 17:25:40.663 DEBUG 16720 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : ==> Parameters: test(String)
+2021-07-30 17:25:40.694 DEBUG 16720 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : <==      Total: 1
+2021-07-30 17:25:40.725  INFO 16720 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-07-30 17:25:40.725  INFO 16720 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-07-30 17:27:50.934  INFO 9288 --- [Thread-12] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2021-07-30 17:27:51.190  INFO 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : Starting EmsJspApplication using Java 1.8.0_191 on DESKTOP-9S2DH3B with PID 9288 (C:\Users\hxsz\IdeaProjects\ems-jsp\target\classes started by hxsz in C:\Users\hxsz\IdeaProjects\ems-jsp)
+2021-07-30 17:27:51.191 DEBUG 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-07-30 17:27:51.191  INFO 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : No active profile set, falling back to default profiles: default
+2021-07-30 17:27:51.618  INFO 9288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-07-30 17:27:51.618  INFO 9288 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-30 17:27:51.619  INFO 9288 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-07-30 17:27:51.760  INFO 9288 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-07-30 17:27:51.763  INFO 9288 --- [restartedMain] o.a.c.c.C.[.[localhost].[/ems-jsp]       : Initializing Spring embedded WebApplicationContext
+2021-07-30 17:27:51.763  INFO 9288 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 568 ms
+2021-07-30 17:27:51.934  INFO 9288 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-07-30 17:27:52.010  INFO 9288 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-30 17:27:52.038  INFO 9288 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path '/ems-jsp'
+2021-07-30 17:27:52.038  INFO 9288 --- [restartedMain] com.hxh.emsjsp.EmsJspApplication         : Started EmsJspApplication in 0.935 seconds (JVM running for 3473.076)
+2021-07-30 17:27:52.038  INFO 9288 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-07-30 17:27:52.675  INFO 18436 --- [main] com.hxh.emsjsp.UserDaoTest               : Starting UserDaoTest using Java 1.8.0_191 on DESKTOP-9S2DH3B with PID 18436 (started by hxsz in C:\Users\hxsz\IdeaProjects\ems-jsp)
+2021-07-30 17:27:52.675 DEBUG 18436 --- [main] com.hxh.emsjsp.UserDaoTest               : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-07-30 17:27:52.675  INFO 18436 --- [main] com.hxh.emsjsp.UserDaoTest               : No active profile set, falling back to default profiles: default
+2021-07-30 17:27:54.458  INFO 18436 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-07-30 17:27:54.708  INFO 18436 --- [main] com.hxh.emsjsp.UserDaoTest               : Started UserDaoTest in 2.436 seconds (JVM running for 4.089)
+2021-07-30 17:27:55.020  INFO 18436 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-30 17:27:55.516 DEBUG 18436 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : ==>  Preparing: select id, username, realname, password, gender from `user` where username = ?
+2021-07-30 17:27:55.547 DEBUG 18436 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : ==> Parameters: test(String)
+2021-07-30 17:27:55.579 DEBUG 18436 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : <==      Total: 1
+2021-07-30 17:27:55.610  INFO 18436 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-07-30 17:27:55.610  INFO 18436 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-07-30 17:28:37.231  INFO 2764 --- [main] com.hxh.emsjsp.UserDaoTest               : Starting UserDaoTest using Java 1.8.0_191 on DESKTOP-9S2DH3B with PID 2764 (started by hxsz in C:\Users\hxsz\IdeaProjects\ems-jsp)
+2021-07-30 17:28:37.232 DEBUG 2764 --- [main] com.hxh.emsjsp.UserDaoTest               : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-07-30 17:28:37.234  INFO 2764 --- [main] com.hxh.emsjsp.UserDaoTest               : No active profile set, falling back to default profiles: default
+2021-07-30 17:28:39.032  INFO 2764 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-07-30 17:28:39.285  INFO 2764 --- [main] com.hxh.emsjsp.UserDaoTest               : Started UserDaoTest in 2.395 seconds (JVM running for 3.704)
+2021-07-30 17:28:39.596  INFO 2764 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-07-30 17:28:40.110 DEBUG 2764 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : ==>  Preparing: select id, username, realname, password, gender from `user` where username = ?
+2021-07-30 17:28:40.137 DEBUG 2764 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : ==> Parameters: test(String)
+2021-07-30 17:28:40.163 DEBUG 2764 --- [main] c.hxh.emsjsp.dao.UserDao.findByUserName  : <==      Total: 1
+2021-07-30 17:28:40.185  INFO 2764 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2021-07-30 17:28:40.188  INFO 2764 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2021-07-30 17:34:35.936  INFO 9288 --- [http-nio-8081-exec-1] o.a.c.c.C.[.[localhost].[/ems-jsp]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-30 17:34:35.937  INFO 9288 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-30 17:34:35.938  INFO 9288 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-07-30 17:34:35.946  INFO 9288 --- [http-nio-8081-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2021-07-30 17:34:35.973 DEBUG 9288 --- [http-nio-8081-exec-1] com.hxh.emsjsp.dao.EmployeeDao.list      : ==>  Preparing: select id, name, birthday, salary, gender from `employee`
+2021-07-30 17:34:35.974 DEBUG 9288 --- [http-nio-8081-exec-1] com.hxh.emsjsp.dao.EmployeeDao.list      : ==> Parameters: 
+2021-07-30 17:34:35.976 DEBUG 9288 --- [http-nio-8081-exec-1] com.hxh.emsjsp.dao.EmployeeDao.list      : <==      Total: 4

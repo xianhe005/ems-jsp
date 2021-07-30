@@ -57,4 +57,15 @@ public class User {
     public void setGender(Boolean gender) {
         this.gender = gender;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", realname='" + realname + '\'' +
+                ", password='" + password + '\'' +
+                ", gender=" + gender +
+                '}';
+    }
 }
