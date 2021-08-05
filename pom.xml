@@ -79,14 +79,40 @@
         </dependency>
     </dependencies>
 
+    <!--注意:springboot :springboot部署jsp时,插件版本必须指定为1.4.2版本,并进⾏jsp
+打包配置才可以,其他版本均不⽀持!!!-->
     <build>
         <plugins>
             <plugin>
+                <!--suppress MavenModelInspection -->
                 <groupId>org.springframework.boot</groupId>
+                <!--suppress MavenModelInspection -->
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>2.5.3</version>
+                <!--suppress MavenModelInspection -->
+                <version>1.4.2.RELEASE</version>
             </plugin>
         </plugins>
+
+        <resources>
+            <!-- 打包时将jsp⽂件拷⻉到META-INF⽬录下-->
+            <resource>
+                <!-- 指定resources插件处理哪个⽬录下的资源⽂件 -->
+                <directory>src/main/webapp</directory>
+                <!--指定必须要放在此⽬录下才能被访问到-->
+                <targetPath>META-INF/resources</targetPath>
+                <includes>
+                    <include>**/**</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/**</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+
     </build>
 
 </project>
